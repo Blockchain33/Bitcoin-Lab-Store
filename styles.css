@@ -1,0 +1,34 @@
+/* Estilos Globales de Producción para BITCOIN LAB */
+html {
+    scroll-behavior: smooth;
+}
+
+.crypto-bg {
+    /* Degradado profundo optimizado para pantallas OLED de celulares */
+    background: linear-gradient(135deg, #020617 0%, #0f172a 50%, #1e1b4b 100%);
+    background-attachment: fixed;
+}
+
+/* Optimización para evitar parpadeos al cargar el HTML */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Efecto de scrollbar personalizado estilo cyberpunk */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f59e0b;
+}
