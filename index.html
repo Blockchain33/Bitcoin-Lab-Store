@@ -6,118 +6,218 @@
     <title>BITCOIN LAB | Official Call Skins Store</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .font-orbitron { font-family: 'Orbitron', sans-serif; }
+        body { font-family: 'Poppins', sans-serif; background-color: #020617; }
+    </style>
 </head>
-<body class="crypto-bg text-white font-sans antialiased selection:bg-amber-500 selection:text-slate-900">
+<body class="text-white antialiased selection:bg-amber-500 selection:text-slate-900">
 
-    <nav class="border-b border-slate-800 bg-slate-950/80 backdrop-blur px-6 py-4 flex justify-between items-center sticky top-0 z-50">
-        <div class="flex items-center gap-2">
-            <i class="fa-solid fa-flask text-amber-500 text-2xl animate-pulse"></i>
-            <span class="font-bold text-xl tracking-wider text-amber-400">BITCOIN LAB</span>
-        </div>
-        <div class="flex gap-6 items-center">
-            <a href="#catalogo" class="text-sm text-gray-300 hover:text-amber-400 transition-colors">Catálogo</a>
-            <a href="#tutorial" class="text-sm text-gray-300 hover:text-amber-400 transition-colors">Instalación</a>
-            <span class="text-xs bg-green-500/10 text-green-400 px-2 py-1 rounded-md border border-green-500/20 font-mono hidden md:inline-block">
-                <i class="fa-solid fa-circle text-[8px] mr-1 align-middle"></i> Servidor Seguro
-            </span>
-        </div>
-    </nav>
-
-    <header class="max-w-6xl mx-auto px-6 py-20 text-center flex flex-col items-center">
-        <span class="bg-amber-500/10 text-amber-400 text-xs px-3 py-1 rounded-full font-mono mb-4 border border-amber-500/20 tracking-widest">
-            NEXUS 2.5D CALL SKINS
-        </span>
-        <h1 class="text-4xl md:text-6xl font-black mb-6 tracking-tight max-w-3xl leading-tight">
-            Personaliza tus llamadas con el poder de <span class="text-amber-400">Memesi</span>
-        </h1>
-        <p class="text-gray-400 text-lg mb-8 max-w-xl">
-            Adquiere los videos verticales exclusivos en 2.5D y nuestra aplicación puente oficial para Android. Sin intermediarios, directo a tu celular.
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4">
-            <a href="#catalogo" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-8 py-3 rounded-xl shadow-lg shadow-amber-500/20 transition duration-300 transform hover:-translate-y-0.5">
-                Ver Catálogo <i class="fa-solid fa-shop ml-2"></i>
-            </a>
-            <a href="#tutorial" class="bg-slate-900 border border-slate-800 hover:border-gray-700 font-medium px-8 py-3 rounded-xl transition duration-300">
-                ¿Cómo funciona?
-            </a>
+    <header class="fixed-top border-b border-slate-800/80 bg-slate-950/80 backdrop-blur px-6 py-4 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <i class="fa-solid fa-flask text-amber-500 text-2xl animate-pulse"></i>
+                <span class="font-orbitron font-black text-xl tracking-wider text-amber-400">BITCOIN LAB</span>
+            </div>
+            <nav class="flex gap-6 items-center">
+                <a href="#hero" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">Home</a>
+                <a href="#about" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">About</a>
+                <a href="#catalogo" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">Catálogo</a>
+                <a href="#roadmap" class="text-sm font-medium text-gray-300 hover:text-amber-400 transition-colors">Roadmap</a>
+                <span class="text-xs bg-green-500/10 text-green-400 px-2 py-1 rounded-md border border-green-500/20 font-mono hidden md:inline-block">
+                    <i class="fa-solid fa-circle text-[8px] mr-1 align-middle"></i> Server Activo
+                </span>
+            </nav>
         </div>
     </header>
 
-    <section id="catalogo" class="max-w-6xl mx-auto px-6 py-12 scroll-mt-20">
-        <h2 class="text-2xl font-bold mb-8 flex items-center gap-3 border-b border-slate-800 pb-4">
-            <i class="fa-solid fa-fire text-amber-500"></i> Colección Disponible
-        </h2>
+    <section id="hero" class="min-h-[80vh] max-w-6xl mx-auto px-6 py-16 flex items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center w-full">
+            <div class="order-2 lg:order-1 flex flex-col justify-center">
+                <span class="w-fit bg-amber-500/10 text-amber-400 text-xs px-3 py-1 rounded-full font-mono mb-4 border border-amber-500/20 tracking-widest font-orbitron font-semibold">
+                    NEXUS 2.5D CALL SKINS
+                </span>
+                <h1 class="font-orbitron text-4xl md:text-6xl font-black mb-6 tracking-tight leading-tight">
+                    Personaliza tus llamadas con el poder de <span class="text-amber-400">Memesi</span>
+                </h1>
+                <p class="text-gray-400 text-base md:text-lg mb-8 max-w-xl">
+                    Adquiere los videos verticales exclusivos en 2.5D y nuestra aplicación puente oficial para Android. Sin intermediarios, directo a tu celular con la máxima velocidad de la blockchain.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#catalogo" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold font-orbitron px-8 py-3 rounded-xl shadow-lg shadow-amber-500/20 transition duration-300 transform hover:-translate-y-0.5">
+                        Buy Now <i class="fa-solid fa-bolt ml-2"></i>
+                    </a>
+                    <a href="#tutorial" class="bg-slate-900 border border-slate-800 hover:border-gray-700 font-medium px-8 py-3 rounded-xl transition duration-300 text-gray-300">
+                        ¿Cómo funciona?
+                    </a>
+                </div>
+            </div>
+            <div class="order-1 lg:order-2 flex justify-center">
+                <div class="relative w-full max-w-[340px] aspect-[9/16] rounded-3xl overflow-hidden border-2 border-amber-500/30 bg-slate-950 shadow-2xl shadow-amber-500/5">
+                    <video src="media/memesi-10.mp4" autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover opacity-90"></video>
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent"></div>
+                    <span class="absolute bottom-4 left-4 text-[9px] text-white/40 tracking-widest font-mono z-10">BITCOIN LAB LIVE PREVIEW</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-slate-900/20 border-y border-slate-900 py-20 scroll-mt-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="flex justify-center order-2 lg:order-1">
+                    <div class="bg-gradient-to-br from-amber-500/10 to-slate-900 p-8 rounded-2xl border border-slate-800 text-center max-w-md w-full">
+                        <i class="fa-solid fa-circle-info text-amber-500 text-4xl mb-4"></i>
+                        <h4 class="font-orbitron font-bold text-lg mb-4 text-amber-400">Especificaciones de Entrega</h4>
+                        <div class="space-y-3 font-mono text-left text-xs text-gray-400">
+                            <p class="flex justify-between border-b border-slate-800 pb-2"><span>Formato:</span> <span class="text-white">MP4 Vertical (.mp4)</span></p>
+                            <p class="flex justify-between border-b border-slate-800 pb-2"><span>Renderizado:</span> <span class="text-white">2.5D High Definition</span></p>
+                            <p class="flex justify-between border-b border-slate-800 pb-2"><span>Software Puente:</span> <span class="text-white">BitcoinLab APK v1.0</span></p>
+                            <p class="flex justify-between pb-2"><span>Compatibilidad:</span> <span class="text-white">Android 9.0 o Superior</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 lg:order-2">
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-12 h-[2px] bg-amber-500"></div>
+                        <h2 class="font-orbitron text-2xl font-bold tracking-wider text-amber-400 uppercase">About Bitcoin Lab</h2>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">La revolución visual de tus llamadas entrantes ha llegado.</h3>
+                    <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                        En Bitcoin Lab fusionamos el arte digital, el coleccionismo y el desarrollo independiente para transformar por completo las aburridas interfaces predeterminadas de los teléfonos móviles. 
+                    </p>
+                    <p class="text-gray-400 text-sm mb-4 leading-relaxed">
+                        Nuestras piezas de <strong>Memesi</strong> están meticulosamente optimizadas en bucles verticales perfectos de alta definición. Al utilizar nuestra app puente oficial optimizada para el ecosistema, garantizas un consumo mínimo de batería y un impacto visual incomparable cada vez que recibes una llamada.
+                    </p>
+                    <p class="text-gray-400 text-sm font-semibold text-amber-500">
+                        ¡Rompe el molde del sistema tradicional. Let's Foking Grok It! 🔍
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="catalogo" class="max-w-6xl mx-auto px-6 py-20 scroll-mt-20">
+        <div class="flex items-center gap-3 mb-12 border-b border-slate-800 pb-4">
+            <i class="fa-solid fa-fire text-amber-500 text-2xl"></i>
+            <h2 class="font-orbitron text-2xl font-bold tracking-wider">Colección Disponible</h2>
+        </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            
             <div class="bg-slate-900/40 border border-slate-800 rounded-2xl p-4 flex flex-col justify-between hover:border-amber-500/40 hover:bg-slate-900/60 transition-all duration-300 group">
                 <div class="relative rounded-xl overflow-hidden bg-slate-950 aspect-[9/16] mb-4 flex items-center justify-center shadow-inner">
                     <video src="media/memesi-10.mp4" autoplay muted loop playsinline class="absolute inset-0 w-full h-full object-cover opacity-85 group-hover:scale-105 transition duration-500"></video>
-                    
                     <span class="absolute bottom-4 left-4 text-[9px] text-white/40 tracking-widest font-mono pointer-events-none z-10">BITCOIN LAB SECURE</span>
                 </div>
-                
                 <div>
                     <div class="flex justify-between items-start mb-2">
-                        <h3 class="font-bold text-lg text-white group-hover:text-amber-400 transition-colors">Memesi Chibi #10</h3>
+                        <h3 class="font-orbitron font-bold text-lg text-white group-hover:text-amber-400 transition-colors">Memesi Chibi #10</h3>
                         <span class="bg-amber-500/10 text-amber-400 text-[10px] px-2 py-0.5 rounded font-mono border border-amber-500/20">MemeSkin</span>
                     </div>
                     <p class="text-gray-400 text-xs mb-6 leading-relaxed">Incluye archivo de video vertical renderizado en alta definición + APK instalador automático.</p>
-                    
                     <div class="flex items-center justify-between pt-3 border-t border-slate-800/60">
                         <div>
                             <p class="text-[10px] text-gray-500 uppercase tracking-wider">Precio Único</p>
-                            <p class="text-2xl font-black text-amber-400">$2.99 <span class="text-xs text-gray-400 font-normal">USD</span></p>
+                            <p class="font-orbitron text-2xl font-black text-amber-400">$2.99 <span class="text-xs text-gray-400 font-normal font-sans">USD</span></p>
                         </div>
-                        <button onclick="BitcoinLabStore.iniciarCompra('memesi-10')" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-sm px-5 py-2.5 rounded-xl shadow-md transition-all active:scale-95">
+                        <button onclick="BitcoinLabStore.iniciarCompra('memesi-10')" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold font-orbitron text-sm px-5 py-2.5 rounded-xl shadow-md transition-all active:scale-95">
                             Adquirir <i class="fa-solid fa-bolt ml-1"></i>
                         </button>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
-    <section id="tutorial" class="bg-slate-950/60 border-y border-slate-800 py-16 scroll-mt-20">
-        <div class="max-w-4xl mx-auto px-6">
-            <h2 class="text-2xl font-bold mb-12 text-center flex items-center justify-center gap-3">
-                <i class="fa-solid fa-shield-cat text-amber-400"></i> Guía de Instalación Segura fuera de Play Store
-            </h2>
-            
+    <section id="roadmap" class="bg-slate-950 border-y border-slate-900 py-20 scroll-mt-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center flex flex-col items-center mb-16">
+                <div class="w-12 h-[2px] bg-amber-500 mb-4"></div>
+                <h2 class="font-orbitron text-3xl font-bold tracking-wider text-white">ROADMAP DE DESARROLLO</h2>
+            </div>
+
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-slate-900/50 p-6 rounded-xl border border-slate-800">
-                    <div class="w-10 h-10 bg-amber-500/10 text-amber-400 rounded-lg flex items-center justify-center font-mono font-bold mb-4">1</div>
-                    <h4 class="font-bold mb-2">Pago y Descarga</h4>
-                    <p class="text-gray-400 text-xs leading-relaxed">Completa tu pago. Obtendrás inmediatamente el video MP4 de alta resolución y la aplicación APK.</p>
+                <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-2xl relative overflow-hidden group hover:border-amber-500/30 transition-all">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-amber-500/5 rounded-bl-full pointer-events-none"></div>
+                    <h5 class="font-orbitron font-bold text-amber-400 text-xl mb-4">Phase 01</h5>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-500 text-xs"></i> Lanzamiento Oficial Web</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-500 text-xs"></i> Skin de Lanzamiento: Memesi Chibi #10</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-amber-500 text-xs"></i> Despliegue de APK Estable v1.0</li>
+                    </ul>
                 </div>
-                <div class="bg-slate-900/50 p-6 rounded-xl border border-slate-800">
-                    <div class="w-10 h-10 bg-amber-500/10 text-amber-400 rounded-lg flex items-center justify-center font-mono font-bold mb-4">2</div>
-                    <h4 class="font-bold mb-2">Permitir Origen</h4>
-                    <p class="text-gray-400 text-xs leading-relaxed">Al abrir el APK, Android avisará que es un origen externo. Dale a "Permitir desde esta fuente" con total seguridad.</p>
+
+                <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-2xl relative overflow-hidden group hover:border-amber-500/30 transition-all">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-amber-500/5 rounded-bl-full pointer-events-none"></div>
+                    <h5 class="font-orbitron font-bold text-amber-400 text-xl mb-4">Phase 02</h5>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle text-amber-500/40 text-[10px]"></i> Nuevos Diseños 2.5D Animados</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle text-amber-500/40 text-[10px]"></i> Expansión de la Comunidad en Redes</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle text-amber-500/40 text-[10px]"></i> Sistema de Integración Web3 P2P</li>
+                    </ul>
                 </div>
-                <div class="bg-slate-900/50 p-6 rounded-xl border border-slate-800">
-                    <div class="w-10 h-10 bg-amber-500/10 text-amber-400 rounded-lg flex items-center justify-center font-mono font-bold mb-4">3</div>
-                    <h4 class="font-bold mb-2">¡Listo para Usar!</h4>
-                    <p class="text-gray-400 text-xs leading-relaxed">Abre la App de Bitcoin Lab, vincula tu video descargado y disfruta del show en cada llamada entrante.</p>
+
+                <div class="bg-slate-900/40 border border-slate-800 p-6 rounded-2xl relative overflow-hidden group hover:border-amber-500/30 transition-all">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-amber-500/5 rounded-bl-full pointer-events-none"></div>
+                    <h5 class="font-orbitron font-bold text-amber-400 text-xl mb-4">Phase 03</h5>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle text-amber-500/40 text-[10px]"></i> Soporte Multi-Dispositivo Expandido</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-circle text-amber-500/40 text-[10px]"></i> Alianzas de Contenido Independiente</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer class="bg-slate-950 py-12 px-6 text-center text-sm text-gray-500">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 border-b border-slate-900 pb-8 mb-8">
+    <section id="tutorial" class="max-w-4xl mx-auto px-6 py-20 scroll-mt-20">
+        <h2 class="font-orbitron text-2xl font-bold mb-12 text-center flex items-center justify-center gap-3">
+            <i class="fa-solid fa-shield-cat text-amber-400"></i> Guía de Instalación Segura fuera de Play Store
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-slate-900/50 p-6 rounded-xl border border-slate-800">
+                <div class="w-10 h-10 bg-amber-500/10 text-amber-400 rounded-lg flex items-center justify-center font-mono font-bold mb-4">1</div>
+                <h4 class="font-bold mb-2">Pago y Descarga</h4>
+                <p class="text-gray-400 text-xs leading-relaxed">Completa tu pago. Obtendrás inmediatamente el video MP4 de alta resolución y la aplicación APK.</p>
+            </div>
+            <div class="bg-slate-900/50 p-6 rounded-xl border border-slate-800">
+                <div class="w-10 h-10 bg-amber-500/10 text-amber-400 rounded-lg flex items-center justify-center font-mono font-bold mb-4">2</div>
+                <h4 class="font-bold mb-2">Permitir Origen</h4>
+                <p class="text-gray-400 text-xs leading-relaxed">Al abrir el APK, Android avisará que es un origen externo. Dale a "Permitir desde esta fuente" con total seguridad.</p>
+            </div>
+            <div class="bg-slate-900/50 p-6 rounded-xl border border-slate-800">
+                <div class="w-10 h-10 bg-amber-500/10 text-amber-400 rounded-lg flex items-center justify-center font-mono font-bold mb-4">3</div>
+                <h4 class="font-bold mb-2">¡Listo para Usar!</h4>
+                <p class="text-gray-400 text-xs leading-relaxed">Abre la App de Bitcoin Lab, vincula tu video descargado y disfruta del show en cada llamada entrante.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-4xl mx-auto px-6 pb-16">
+        <div class="bg-slate-950 border border-slate-900 p-6 rounded-2xl">
+            <h3 class="font-orbitron text-gray-400 text-sm tracking-wider font-bold uppercase mb-2">Disclaimer</h3>
+            <p class="text-[11px] text-gray-500 leading-relaxed uppercase">
+                Bitcoin Lab es un proyecto independiente desarrollado exclusivamente con fines de personalización, parodia y coleccionismo digital de skins. Los activos digitales y software suministrados no representan herramientas financieras ni promesas de inversión.
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 border-t border-slate-900 py-12 px-6 text-center text-sm text-gray-500">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6 border-b border-slate-900/60 pb-8 mb-8">
             <div class="flex items-center gap-2">
                 <i class="fa-solid fa-flask text-amber-500"></i>
-                <span class="font-bold text-gray-400 tracking-wider">BITCOIN LAB STUDIO</span>
+                <span class="font-orbitron font-bold text-gray-400 tracking-wider">BITCOIN LAB STUDIO</span>
             </div>
-            <div class="flex gap-6 text-xs text-gray-400">
+            <div class="flex gap-6 text-xs text-gray-400 font-mono">
                 <span class="flex items-center gap-1"><i class="fa-solid fa-server text-green-600"></i> Cloudflare WAF</span>
                 <span class="flex items-center gap-1"><i class="fa-solid fa-fingerprint text-blue-500"></i> SHA-256 Verificado</span>
             </div>
         </div>
-        <p>&copy; 2026 BITCOIN LAB. Diseñado con fines de parodia, coleccionismo digital y desarrollo independiente.</p>
+        <p class="text-xs">&copy; 2026 BITCOIN LAB. Todos los derechos reservados.</p>
     </footer>
 
     <script src="app.js"></script>
